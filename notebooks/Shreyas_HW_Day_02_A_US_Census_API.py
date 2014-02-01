@@ -118,6 +118,7 @@ data = r.json()
 
 population_with_pr = 0
 population_wo_pr = 0
+pr = 0
 
 for item in data:
     if item[1] != "NAME":
@@ -125,11 +126,16 @@ for item in data:
         
         if item[1] != "Puerto Rico":
             population_wo_pr += int(str(item[0]))
+        else:
+            pr = int(str(item[0]))
             
 
 print "US Population with Puerto Rico: \t %s" % (population_with_pr)
 print "US Population without Puerto Rico: \t %s" % (population_wo_pr)
-
+print "-" * 60
+print "Validation"
+print "Puerto Rico = %s \n Difference = %s" % (pr , (population_with_pr - population_wo_pr)) 
+print "-" * 60
 
 # <headingcell level=1>
 
@@ -173,4 +179,7 @@ c.sf1.get(('NAME', 'P0010001'), {'for': 'state:%s' % states.CA.fips})
 
 "population of California: {0}".format(
         int(c.sf1.get(('NAME', 'P0010001'), {'for': 'state:%s' % states.CA.fips})[0]['P0010001']))
+
+# <codecell>
+
 
