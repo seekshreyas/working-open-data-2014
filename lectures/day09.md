@@ -27,7 +27,7 @@ the course.
 
 # Project Proposals
 
-[Due: Friday, March 14, 2014 11:59pm](https://bcourses.berkeley.edu/courses/1189091/assignments/4743884).
+[Due: Wed, April 2, 2014 11:59pm](https://bcourses.berkeley.edu/courses/1189091/assignments/4743884).
 
 Write a 1-2 page proposal on how your group (of 2-3 team members) will conduct a thorough analyses of some open dataset or datasets. Use the following template for your proposal:
 
@@ -48,7 +48,8 @@ I'd gladly help any of you flesh out any of these ideas:
 * build a campus org chart -- a people finder
 
 * surfacing images and recontextualizing data in
-  [Open Context: Data Publication for Cultural Heritage and Field Research](http://opencontext.org/)
+  [Open Context: Data Publication for Cultural Heritage and Field Research](http://opencontext.org/). See
+  [Project-Starter_OpenContext.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Project-Starter_OpenContext.ipynb)
 
 * [Free Law Project](http://freelawproject.org/):   reconciling court
   cases to Wikipedia and win at 
